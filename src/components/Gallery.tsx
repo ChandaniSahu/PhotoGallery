@@ -17,6 +17,7 @@ export default function Gallery() {
     initialState
   )
 
+ 
   const handleSearch = useCallback((value: string) => {
     setSearch(value)
   }, [])
@@ -37,7 +38,7 @@ export default function Gallery() {
 
   return (
     <div className="xl:px-4 px-2 xl:py-6 py-4">
-      <h1 className="text-7xl font-bold text-center text-amber-600 mb-6">Photo Gallery</h1>
+      <h1 className="xl:text-7xl  text-5xl font-bold text-center text-amber-600 mb-6">Photo Gallery</h1>
 
       <SearchBar search={search} setSearch={handleSearch}  />
 

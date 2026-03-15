@@ -10,7 +10,7 @@ interface Props {
 export default function PhotoCard({ photo, isFav, toggleFav }: Props) {
 
   return (
-    <div className="relative bg-white rounded-lg shadow hover:shadow-lg hover:scale-101 transition overflow-hidden">
+    <div className="relative bg-white rounded-lg shadow hover:shadow-lg hover:scale-101 transition-200 overflow-hidden">
 
       <img
         src={photo.download_url}
