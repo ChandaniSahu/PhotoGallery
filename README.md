@@ -14,6 +14,8 @@ Checkout live demo here: [https://chandani-photo-gallery.netlify.app/](https://c
 ## Installation
 
 1. Clone the repository
+   ```bash
+   
 2. Install dependencies:
    ```bash
    npm install
